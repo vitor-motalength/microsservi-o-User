@@ -30,4 +30,6 @@ public class UserController {
         UserDTO created = userService.registerUser(dto);
         return new ResponseEntity<>(created, HttpStatus.CREATED);
     }
+
+
 }
